@@ -1,2 +1,12 @@
 node_modules
-.history/
+temp
+tmp
+Desktop.ini
+Thumbs.db
+*.bak
+*.log
+*.tmp
+.DS_Stor
+.idea
+.vscode
+.history
