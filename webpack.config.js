@@ -7,12 +7,12 @@ const nodeExternals = require('webpack-node-externals');
 const plugins = isProd ? [new CleanWebpackPlugin()] : [
   new CleanWebpackPlugin(),
   new HtmlWebpackPlugin({
-    template: 'index.html'
+    template: '/demo/index.html'
   }),
 ]
 module.exports = {
   mode: isProd ? 'production' : 'development',
-  entry: './src/index.js',
+  entry: isProd ? './src/index.js' : './demo/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, './dist'),
