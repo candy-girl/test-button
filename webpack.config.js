@@ -7,16 +7,17 @@ const nodeExternals = require('webpack-node-externals');
 const plugins = isProd ? [new CleanWebpackPlugin()] : [
   new CleanWebpackPlugin(),
   new HtmlWebpackPlugin({
+    filename: 'index.html',
     template: '/demo/index.html'
   }),
 ]
 module.exports = {
   mode: isProd ? 'production' : 'development',
-  entry: isProd ? './src/index.js' : './demo/index.js',
+  entry: isProd ? './index.js' : './demo/index.js',
   output: {
-    filename: 'bundle.js',
+    filename: 'index.js',
     path: path.resolve(__dirname, './dist'),
-    libraryTarget: isProd ? 'commonjs2' : undefined,  // 包需要被module.exports，这就要用到common
+    libraryTarget: isProd ? 'umd' : undefined,  // umd通用node和浏览器环境
   },
   module: {
     rules: [

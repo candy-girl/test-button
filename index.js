@@ -1,0 +1,1 @@
+export { default as CandyButton } from './src/button';
