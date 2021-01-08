@@ -17,4 +17,3 @@ CandyButton.propTypes = {
   title: PropTypes.string,
 }
 export default CandyButton
-// ReactDOM.render(<App />, document.getElementById('root'));
