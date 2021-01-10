@@ -5,10 +5,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin'); // 每次构建清除上一次打包出来的文件
 const nodeExternals = require('webpack-node-externals');
 const plugins = isProd ? [new CleanWebpackPlugin()] : [
-  new CleanWebpackPlugin(),
+  // new CleanWebpackPlugin(),
   new HtmlWebpackPlugin({
     filename: 'index.html',
-    template: '/demo/index.html'
+    template: './demo/index.html'
   }),
 ]
 module.exports = {
