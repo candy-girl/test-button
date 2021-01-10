@@ -4,7 +4,7 @@
   "description": "test a button component",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "start": "cross-env NODE_ENV=development webpack-dev-server --open",
     "build": "cross-env NODE_ENV=production webpack"
   },
@@ -26,10 +26,13 @@
   "dependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
     "html-webpack-plugin": "^4.5.1",
+    "jest": "^26.6.3",
     "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
     "style-loader": "^2.0.0",
     "webpack-node-externals": "^2.5.2"
   }
