@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-import './index.css';
 
-function CandyButton(props) {
+export default function CandyButton(props) {
   const [buttonWidth, setButtonWidth] = useState(100)
   const [buttonHeight, setButtonHeight] = useState(100)
+  
   const add = () => {
     console.log(buttonWidth);
     const w = buttonWidth+10
@@ -41,4 +41,3 @@ CandyButton.propTypes = {
   title: PropTypes.string,
   onAdd: PropTypes.func.isRequired
 }
-export default CandyButton

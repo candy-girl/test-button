@@ -1,6 +1,6 @@
 {
   "name": "candytestbutton",
-  "version": "1.0.0",
+  "version": "1.4.5",
   "description": "test a button component",
   "main": "dist/index.js",
   "scripts": {
@@ -8,16 +8,25 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --open",
     "build": "cross-env NODE_ENV=production webpack"
   },
+  "eslintConfig": {
+    "extends": "react-app",
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error"
+    }
+  },
   "author": "candy_girl",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@babel/plugin-transform-react-jsx": "^7.12.12",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "add": "^2.0.6",
     "babel-loader": "^8.2.2",
     "cross-env": "^7.0.3",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "webpack": "^5.2.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
@@ -37,3 +46,4 @@
     "webpack-node-externals": "^2.5.2"
   }
 }
+

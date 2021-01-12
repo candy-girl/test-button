@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1610287119526" clover="3.2.0">
-  <project timestamp="1610287119526" name="All files">
-    <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="20" coveredelements="20" complexity="0" loc="16" ncloc="16" packages="1" files="3" classes="3"/>
+<coverage generated="1610435334189" clover="3.2.0">
+  <project timestamp="1610435334189" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="20" coveredelements="20" complexity="0" loc="16" ncloc="16" packages="1" files="2" classes="2"/>
     <file name="button.js" path="/Users/zengxiaobai/projects/nuonuo/study/testButton/src/button.js">
       <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="6" count="2" type="stmt"/>
       <line num="7" count="2" type="stmt"/>
-      <line num="8" count="2" type="stmt"/>
       <line num="9" count="2" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
@@ -17,9 +17,6 @@
       <line num="23" count="2" type="stmt"/>
       <line num="36" count="1" type="stmt"/>
       <line num="40" count="1" type="stmt"/>
-    </file>
-    <file name="index.css" path="/Users/zengxiaobai/projects/nuonuo/study/testButton/src/index.css">
-      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
     </file>
     <file name="math.js" path="/Users/zengxiaobai/projects/nuonuo/study/testButton/src/math.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
