@@ -1,6 +1,6 @@
 {
   "name": "candytestbutton",
-  "version": "1.4.5",
+  "version": "1.4.7",
   "description": "test a button component",
   "main": "dist/index.js",
   "scripts": {
@@ -17,6 +17,11 @@
       "react-hooks/rules-of-hooks": "error"
     }
   },
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
   "author": "candy_girl",
   "license": "ISC",
   "devDependencies": {

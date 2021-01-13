@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1610435334189" clover="3.2.0">
-  <project timestamp="1610435334189" name="All files">
+<coverage generated="1610443826169" clover="3.2.0">
+  <project timestamp="1610443826169" name="All files">
     <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="20" coveredelements="20" complexity="0" loc="16" ncloc="16" packages="1" files="2" classes="2"/>
     <file name="button.js" path="/Users/zengxiaobai/projects/nuonuo/study/testButton/src/button.js">
       <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>

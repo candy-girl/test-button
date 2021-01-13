@@ -29,7 +29,7 @@ it('renders <CandyButton /> components', () => {
   //  /** 模拟点击事件 */
   addButton.simulate('click');
   expect(wrapper.find(buttonClass).prop('style')).toEqual({
-    width: buttonWidth + 10,
-    height: buttonHeight + 10
+    width: 110,
+    height: 110
   });
 });
