@@ -6,7 +6,7 @@ Thumbs.db
 *.bak
 *.log
 *.tmp
-.DS_Stor
+.DS_Store
 .idea
 .vscode
 .history
