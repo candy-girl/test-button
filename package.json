@@ -1,21 +1,12 @@
 {
-  "name": "candytestbutton",
-  "version": "1.5.4",
+  "name": "testbutton_candy",
+  "version": "1.0.0",
   "description": "test a button component",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest --coverage",
     "start": "cross-env NODE_ENV=development webpack-dev-server --open",
     "build": "cross-env NODE_ENV=production webpack"
-  },
-  "eslintConfig": {
-    "extends": "react-app",
-    "plugins": [
-      "react-hooks"
-    ],
-    "rules": {
-      "react-hooks/rules-of-hooks": "error"
-    }
   },
   "files": [
     "dist",
